@@ -1,18 +1,39 @@
+# Bug Management System
+
+A robust and intuitive Bug Tracking System built with Java Swing. This application provides a streamlined interface for developers and teams to report, track, and manage software bugs efficiently.
+
+## Features
+
+- **User Authentication**: Secure login interface to access the system.
+- **Dashboard View**: Centralized table view displaying all reported bugs with key details like ID, Title, Description, Priority, and Status.
+- **Bug Reporting**: Simple form to log new bugs with priority levels (Low, Medium, High).
+- **Context Actions**: Right-click context menu support for quick actions:
+    - **Change Status**: Update bug status (e.g., Open, In Progress, Closed).
+    - **Delete Bug**: Remove resolved or invalid bug reports.
+- **Modern UI**: Custom gradient background and styled Swing components for a pleasant user experience.
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Prerequisites
 
-## Folder Structure
+- Java Development Kit (JDK) 8 or higher.
+- An IDE (like VS Code, IntelliJ IDEA, or Eclipse) or a command-line environment.
 
-The workspace contains two folders by default, where:
+### Running the Application
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1. Compile the Java source files.
+2. Run the `Main` class to launch the application.
+3. The application will start with the Login screen.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Project Structure
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- `src/Main.java`: Entry point of the application.
+- `src/LoginGUI.java`: Handles user authentication.
+- `src/BugTrackerGUI.java`: Main dashboard interface.
+- `src/BugManager.java`: Logic for managing bug data.
+- `src/Bug.java`: Data model representing a bug.
 
-## Dependency Management
+## Technologies Used
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- **Java Core**: Application logic.
+- **Java Swing**: Graphical User Interface (GUI).
